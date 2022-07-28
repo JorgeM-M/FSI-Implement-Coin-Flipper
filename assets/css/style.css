@@ -7,7 +7,7 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(123, 0, 255), white);
 }
 
 main {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .message-container {
-    color: darkorange;
+    color: rgb(123, 0, 255);
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -37,8 +37,22 @@ button {
     font-size: 1.5em;
     margin-right: 10px;
     border-radius: 10px;
+    background-color:rgba(0, 255, 213, 0.367);
 }
 
+#flip-penny {
+    color:rgb(123, 0, 255)
+}
+#flip-penny:hover {
+    background-color: black;
+}
+#clear-score {
+    color:rgb(123, 0, 255)
+}
+
+#clear-score:hover {
+    background-color: black;
+}
 #flip,
 #roll {
     background: linear-gradient(to bottom left, lightblue, white);
@@ -50,7 +64,7 @@ button {
 }
 
 #clear {
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(123, 0, 255), white);
 }
 
 #clear:hover {
@@ -61,7 +75,7 @@ button {
 table, 
 th, 
 td {
-    border: 1px solid darkorange;
+    border: 1px solid rgb(123, 0, 255);
     margin: 0 auto;
 }
 
